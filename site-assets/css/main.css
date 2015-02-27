@@ -112,7 +112,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
+    background: url('../images/billboard.jpg') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -121,7 +121,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.dark{
-    background: url('../img/billboard2.jpg') no-repeat;
+    background: url('../images/billboard2.jpg') no-repeat;
     
     background-size: cover;
     -webkit-background-size: cover;
@@ -137,7 +137,7 @@ h5, h6          { font-weight: bolder }
     bottom: 0;
     left: 0;
     margin-bottom: -1px;
-    background: url('../img/shadow.png') repeat-x;
+    background: url('../images/shadow.png') repeat-x;
 }
 
 .billboard .caption{
@@ -317,7 +317,7 @@ header.dark nav ul li a:hover{
     height: 350px;
     text-align: center;
     margin-top: 100px;
-    background: url('../img/video.jpg') no-repeat;    
+    background: url('../images/video.jpg') no-repeat;    
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -340,7 +340,7 @@ header.dark nav ul li a:hover{
     display: inline-block;
     width: 71px;
     height: 71px;
-    background: url('../img/play_btn.png') no-repeat;
+    background: url('../images/play_btn.png') no-repeat;
     margin-top: 40px;
 }
 
@@ -426,7 +426,7 @@ header.dark nav ul li a:hover{
     display: block;
     width: 10px;
     height: 5px;
-    background: url('../img/testimonial_triangle.png') no-repeat;
+    background: url('../images/testimonial_triangle.png') no-repeat;
     position: absolute;
     bottom: -5px;
     left: 40px;
@@ -436,7 +436,7 @@ header.dark nav ul li a:hover{
     margin-left: 20px;
 }
 
-.testimonials ul li .client img.avatar{
+.testimonials ul li .client images.avatar{
     float: left;
     margin-right: 20px;
     -webkit-border-radius: 100px;

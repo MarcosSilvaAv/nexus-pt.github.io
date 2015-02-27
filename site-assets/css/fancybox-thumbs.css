@@ -46,7 +46,7 @@
 	outline: none;
 }
 
-#fancybox-thumbs ul li img {
+#fancybox-thumbs ul li images {
 	display: block;
 	position: relative;
 	border: 0;
