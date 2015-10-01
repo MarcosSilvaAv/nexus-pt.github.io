@@ -1,117 +1,117 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 * {
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	-webkit-transition: all 200ms;
+	transition: all 200ms;
 }
 
 html {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 body {
-  background-image: url("./../images/bg.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+	background-image: url("./../images/bg.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .a0 {
-  height: 50%;
+	height: 50%;
 }
 
 .a1 {
-  margin: -250px 0 0;
+	margin: -250px 0 0;
 }
 
 .a1 .b1 {
-  height: 255px;
-  text-align: center;
+	height: 255px;
+	text-align: center;
 }
 
 .a1 .b1 img {
-  padding: 5px 0 0;
-  opacity: 0.2;
+	padding: 5px 0 0;
+	opacity: 0.2;
 }
 
 .a1 .b1 img:hover {
-  padding: 0;
-  opacity: 0.4;
+	padding: 0;
+	opacity: 0.4;
 }
 
 .a1 .b1 img:active {
-  transform:rotate(360deg);
-  -ms-transform:rotate(360deg); /* IE 9 */
-  -webkit-transform:rotate(360deg); /* Opera, Chrome, and Safari */
-  opacity: 1;
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-webkit-transform:rotate(360deg); /* Opera, Chrome, and Safari */
+	opacity: 1;
 }
 
 .a1 .b2 {
-  text-align: center;
-  color: #fff;
-  padding: 40px 0 0;
-  text-shadow: 0 0 5px #000;
-  min-height: 150px;
+	text-align: center;
+	color: #fff;
+	padding: 40px 0 0;
+	text-shadow: 0 0 5px #000;
+	min-height: 150px;
 }
 
 .a1 .b2 span {
-  padding: 0 2px 0;
-  line-height: 32px;
-  cursor: default;
+	padding: 0 2px 0;
+	line-height: 32px;
+	cursor: default;
 }
 
 .a1 .b2 span:nth-child(odd) {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .a1 .b2 span:hover {
-  font-size: 25px;
+	font-size: 25px;
 }
 
 .a1 .b3 {
-  padding: 40px 0 0;
-  text-align: center;
+	padding: 40px 0 0;
+	text-align: center;
 }
 
 .a1 .b3 a {
-  display: inline-block;
-  padding: 5px 15px 9px;
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 2px;
-  color: rgba(255,255,255,0.2);
-  font-size: 20px;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
+	display: inline-block;
+	padding: 5px 15px 9px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 2px;
+	color: rgba(255,255,255,0.2);
+	font-size: 20px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
 }
 
 .a1 .b3 a:hover {
-  color: rgba(255,255,255,0.5);
-  background-color: rgba(0,0,0,0.2);
-  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.5);
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
 
 .a1 .b3 a:active {
-  color: rgba(255,255,255,0.9);
-  background-color: rgba(0,0,0,0.3);
+	color: rgba(255,255,255,0.9);
+	background-color: rgba(0,0,0,0.3);
 }
 
 .a2 {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  color: #fff;
-  text-shadow: 0 0 5px #000;
-  text-align: right;
-  padding: 5px 0 5px;
-  font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+	text-align: right;
+	padding: 5px 0 5px;
+	font-size: 12px;
 }
 
 .a2 a {
@@ -121,5 +121,5 @@ a {
 }
 
 .a2 a:hover {
-    color: orange;
+	color: orange;
 }
