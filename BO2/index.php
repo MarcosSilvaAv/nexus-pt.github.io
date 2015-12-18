@@ -1,29 +1,28 @@
-<?php $configuration = ["BO2-name" => "", "BO2-version" => "1.1.0", "BO2-subversion" => "c"]; ?>
 <!DOCTYPE html>
 <html>
 	<head>
-	<title><?= $configuration['BO2-name']; ?> : <?= $configuration['BO2-version']; ?></title>
+		<title>BO2 / BOxygen</title>
 		<style type="text/css">
 			* {
 				font-family: Arial, sans-serif;
 				color: rgb(102, 102, 102);
 			}
-
+	
 			body {
 				margin: 60px 0 0 0;	
 			}
-
+	
 			h1 {
 				border-left: 5px solid rgb(244, 112, 0);
 				font-size: 13pt;
 				padding-left: 7px;
 				margin-bottom: 7px;
 			}
-
+	
 			p {
 				font-size: 10pt;   
 			}
-
+	
 			div.alert {
 				position: fixed;
 				top: 0;
@@ -36,18 +35,8 @@
 				padding: 10px;
 			}
 		</style>
-		<script type="text/javascript">
-		
-		</script>
 	</head>
 	<body>
-		<?php
-			if (isset($_GET["v"]) && isset($_GET["sv"]) && $_GET["v"] !== $configuration["BO2-version"] && $_GET["sv"] !== $configuration["BO2-subversion"]) {
-				print "<div class=\"alert\">Your version is different from home server! Contact the support team to see if your backoffice support this update.</div>";
-			} else {
-				print "<div class=\"alert\">Your version is updated.</div>";
-			}
-		?>
 		<h1>v 1.2.0[beta][inDev]</h1>
 		<p>
 			- Login changed from Username to Email autentication<br>
