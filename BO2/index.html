@@ -14,6 +14,12 @@
 		<title>BO2 / BOxygen</title>
 		<script>
 			var url = (window.location != window.parent.location) ? document.referrer : document.location;
+
+			url = url.replace("http://", "");
+			url = url.replace("https://", "");
+			url = url.split("/");
+			url = url[0];
+
 			console.log(url);
 		</script>
 	</head>
