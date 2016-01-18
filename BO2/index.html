@@ -13,7 +13,7 @@
 
 		<title>BO2 / BOxygen</title>
 		<script>
-			console.log("document.URL : " + document.URL);
+			var url = (window.location != window.parent.location) ? document.referrer : document.location;
 		</script>
 	</head>
 	<body>
