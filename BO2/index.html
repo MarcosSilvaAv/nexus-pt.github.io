@@ -20,6 +20,23 @@
 			url = url.split("/");
 			url = url[0];
 
+			$.when(
+				$.ajax(
+					{
+						type:"POST",
+						cache:false,
+						url: path + "http://api.nexus-pt.eu/bo-log/",
+						data : {
+							url : url,
+							version : 2
+						},
+						success: function (html) {
+							console.log(html);
+						}
+					}
+				)
+			);
+
 			console.log(url);
 		</script>
 	</head>
