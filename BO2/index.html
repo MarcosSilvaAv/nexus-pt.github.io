@@ -24,7 +24,8 @@
 				$.ajax(
 					{
 						type:"POST",
-						cache:false,
+						dataType: "jsonp",
+						cache: false,
 						url: "http://api.nexus-pt.eu/bo-log/",
 						data : {
 							url : url,
